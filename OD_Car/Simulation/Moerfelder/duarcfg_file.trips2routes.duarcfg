@@ -1,0 +1,19 @@
+
+<configuration>
+
+    <input>
+        <net-file value="C:/HIS_Masters/UrbanTraffic/SUMO_Testmaps/Simulation_Sachsenhausen/Final Network/Simulation/OD_Car/Simulation/Sachsenhausen_network.net.xml"/>
+        <route-files value="OD_Moerfelder_DtoK_1.odtrips.xml,OD_Moerfelder_KtoD_1.odtrips.xml,OD_Moerfelder_DtoK_2.odtrips.xml,OD_Moerfelder_KtoD_2.odtrips.xml"/>
+    </input>
+	
+	<output>
+        <output-file value="C:/HIS_Masters/UrbanTraffic/SUMO_Testmaps/Simulation_Sachsenhausen/Final Network/Simulation/OD_Car/Simulation/OD_Moerfelder.odtrips.rou.xml"/>
+    </output>
+
+
+    <report>
+        <xml-validation value="never"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
