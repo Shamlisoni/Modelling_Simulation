@@ -1,0 +1,25 @@
+<configuration>
+
+    <input>
+        <net-file value="Sachsenhausen_network.net.xml"/>
+		<route-files value="OD_Kennedyallee.odtrips.rou.xml"/>
+		<additional-files value="edge_count_Kennedyallee.xml"/>		
+    </input>
+	
+	<processing>
+		<lateral-resolution value= "0.5"/>
+		<time-to-teleport value= "120"/>	
+	</processing>
+	
+			
+	<output>
+		<vehroute-output value = "Kennedyallee\vehicle_Kennedyallee.xml"/>
+		<write-license value="true"/>
+		<fcd-output value="Kennedyallee\fcd_Kennedyallee.xml"/>
+		<tripinfo-output value="Kennedyallee\tripinfo_Kennedyallee.xml"/>
+		<emission-output value="Kennedyallee\emissioninfos_Kennedyallee.xml"/>
+		<tripinfo-output.write-unfinished value="true"/>
+	</output>	
+
+
+</configuration>
