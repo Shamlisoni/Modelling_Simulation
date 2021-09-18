@@ -1,0 +1,14 @@
+
+
+<configuration>
+
+    <input>
+        <taz-files value ="taz_file_Kennedyalle.taz.xml"/>
+        <od-matrix-files value="OD_Kennedyalle_MtoK_1.od"/>
+    </input>
+	
+	<output>
+        <output-file value="Simulation/Kennedyallee/OD_Kennedyalle_MtoK_1.odtrips.xml"/>
+    </output>
+
+</configuration>

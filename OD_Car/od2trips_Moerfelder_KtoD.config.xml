@@ -1,0 +1,16 @@
+
+
+<configuration>
+
+    <input>
+        <taz-files value ="taz_file_Moerfelder.taz.xml"/>
+        <od-matrix-files value="OD_Moerfelder_KtoD_2.od"/>
+    </input>
+	
+	
+	<output>
+        <output-file value="Simulation/Moerfelder/OD_Moerfelder_KtoD_2.odtrips.xml"/>
+    </output>
+
+
+</configuration>

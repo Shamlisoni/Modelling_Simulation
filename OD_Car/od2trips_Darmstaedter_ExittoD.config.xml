@@ -1,0 +1,14 @@
+
+
+<configuration>
+
+    <input>
+        <taz-files value ="taz_file_Darmstaedter.taz.xml"/>
+        <od-matrix-files value="OD_Darmstaedter_ExittoD_2.od"/>
+    </input>
+	
+	<output>
+        <output-file value="Simulation/Darmstaedter/OD_Darmstaedter_ExittoD_2.odtrips.xml"/>
+    </output>
+
+</configuration>
